@@ -1,5 +1,5 @@
 # Change these
-server '142.93.138.39', port: 22, roles: [:web, :app, :db], primary: true
+server '142.93.138.39', port: 3000, roles: [:web, :app, :db], primary: true
 
 set :repo_url,        'git@github.com:MargusSalk/test-deploy.git'
 set :application,     'test-deploy'
